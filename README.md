@@ -7,7 +7,7 @@
  A idéia principal e contruir uma base clara e consolidar conceitos aprendidos, e conforme a evolução dos mundos (2, 3 e 4), retornar a este repositório para organizar, otimizar e adicionar novas funcionalidades.
 
 ## Funcionalidades Atuais (v1.1)
-
+### Mundo 1
  - **Tratamento de Dados:** Validação de entradas do usuário usando métodos como `.strip()`, `.title()` e `.upper()`. 
 
  - **Registro Biométrico:** Cálculo automatizado do **IMC (Índice de Massa Corporal)** com feedbacks personalizados baseados nas diretrizes de saúde.
