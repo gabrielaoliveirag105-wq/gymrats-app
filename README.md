@@ -1,12 +1,13 @@
 # GymRats - App Terminal
  
- O **GymRats** é um assistente de treinos interativos que roda diretamente no terminal. O projeto nasceu da necessidade de práticar lógica de programação após finalizar o *Mundo 1* do *Curso de Python*, do professor **Gustavo Guanabara**. 
+ O **GymRats** é um assistente de treinos interativos que roda diretamente no terminal. O projeto nasceu da necessidade de praticar lógica de programação após finalizar o *Mundo 1* do *Curso de Python*, do professor **Gustavo Guanabara**. 
 
 ## Objetivo do Projeto
 
  A idéia principal e contruir uma base clara e consolidar conceitos aprendidos, e conforme a evolução dos mundos (2, 3 e 4), retornar a este repositório para organizar, otimizar e adicionar novas funcionalidades.
 
 ## Funcionalidades Atuais (v1.1)
+
 ### Mundo 1
  - **Tratamento de Dados:** Validação de entradas do usuário usando métodos como `.strip()`, `.title()` e `.upper()`. 
 
