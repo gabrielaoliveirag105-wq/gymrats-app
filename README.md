@@ -1,5 +1,3 @@
-
-
 # GymRats - App Terminal
  
  O **GymRats** é um assistente de treinos interativos que roda diretamente no terminal. O projeto nasceu da necessidade de práticar lógica de programação após finalizar o *Mundo 1* do *Curso de Python*, do professor **Gustavo Guanabara**. 
@@ -21,6 +19,11 @@
  - **Meta de Hidratação:** Cálculo personalizado de ingestão diária de água (ml por kg de peso corporal) recomendado pela OMS.
  
  - **Interface Visual no Terminal:** Uso de cores via códigos de escape ANSI e temporizadores com a biblioteca `time (sleep)` para melhorar a experiência do usuário 
+
+## Tecnologias Utilizadas 
+ - **Python 3**
+ - Biblioteca nativa `time` (módulo `sleep`)
+ - Estruturas Condicionais (`if`, `elif`, `else`)
 
 
  
