@@ -10,6 +10,8 @@
 
 ## Funcionalidades Atuais (v1.1)
 
+### Mundo 1
+
  - **Tratamento de Dados:** Validação de entradas do usuário usando métodos como `.strip()`, `.title()` e `.upper()`. 
 
  - **Registro Biométrico:** Cálculo automatizado do **IMC (Índice de Massa Corporal)** com feedbacks personalizados baseados nas diretrizes de saúde.
@@ -21,6 +23,14 @@
  - **Meta de Hidratação:** Cálculo personalizado de ingestão diária de água (ml por kg de peso corporal) recomendado pela OMS.
  
  - **Interface Visual no Terminal:** Uso de cores via códigos de escape ANSI e temporizadores com a biblioteca `time (sleep)` para melhorar a experiência do usuário 
+
+## Tecnologias Utilizadas 
+ - **Python 3**
+ - Biblioteca nativa `time` (módulo `sleep`)
+ - Estruturas Condicionais (`if`, `elif`, `else`)
+
+
+
 
 
  
