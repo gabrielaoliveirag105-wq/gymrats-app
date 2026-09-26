@@ -16,15 +16,17 @@ print(f'\n{laranja}=== Bem-vindo ao GymRats, {nome}! ==={limpa} \nAqui você pod
 sleep(1.3)
 
 peso = 0
+registro = ' '
 while True:
     print(f'\n {laranja}=== MENU GYMRATS ==={limpa}'
     '\n[ 1 ] Fazer Check-in de Treino '
     '\n[ 2 ] Recalcular IMC/ Dados Biométricos '
-    '\n[ 3 ] Ver meta de Água '
-    '\n[ 4 ] Sair do programa')
+    '\n[ 3 ] Ver meta de Água ' \
+    '\n[ 4 ] Ver último Relato'
+    '\n[ 5 ] Sair do programa')
     opcao = int(input('Escolha sua opção: '))
         
-    if opcao == 4:
+    if opcao == 5:
         print(f'{amarelo}Treino Finalizado! Volte Amanhã e registre seu desempenho!{limpa}')
         break
 
@@ -83,6 +85,14 @@ while True:
                 print(f'\nUAU! Tá forte em? {amarelo}{carga}kg é carga de atleta!{limpa} ')
             else:
                 print(f'\nMuito bem! {carga}kg registrado. {amarelo}Foco na execução e na progressão!{limpa}')
+
+        print(f'\n{laranja}=== Diário do Atleta ==={limpa}')
+        registro = str(input('Escreva como foi o treino e suas observações: ')).strip()
+        print('-'*45)
+        print(f'{amarelo}Registro realizado com sucesso!{limpa}')
+        print(f'"{registro}"')
+        print('Continue acompanhando sua evolução diária!')
+        print('-' * 45)
             
                 
     elif opcao == 2:
@@ -116,7 +126,21 @@ while True:
             agua = peso * (35/1000)
             print(f'{amarelo}Dica do GymRats:{limpa} Para o seu peso de {peso}kg, sua meta \nde água diária é de {amarelo}{agua:.2f} Litros{limpa}. Não se esqueça de hidratar!')
             print('-'*60)
+
+    elif opcao == 4:
+        if registro == ' ':
+            print('-'* 60)
+            print(f'{amarelo}Você ainda não fez check-in de nehum treino!{limpa}')
+            print('-' * 60)
+        else:
+            print('\n=== Último Registro do Diário ===')
+            print('-'*60)
+            print('Seu último registro foi:')
+            print(f'{amarelo}{registro}{limpa}')
+            print('-' * 60)
     else:
-        print(f'\n{amarelo}Opção Inválida no menu!{limpa} Por favor, escolha um aopção entre 1 e 4.')
-           
+        print(f'\n{amarelo}Opção Inválida no menu!{limpa} Por favor, escolha um aopção entre 1 e 5.')
+               
+
+    
 
