@@ -87,6 +87,7 @@ while True:
                 print(f'\nMuito bem! {carga}kg registrado. {amarelo}Foco na execução e na progressão!{limpa}')
 
         print(f'\n{laranja}=== Diário do Atleta ==={limpa}')
+        sleep(1)
         registro = str(input('Escreva como foi o treino e suas observações: ')).strip()
         print('-'*45)
         print(f'{amarelo}Registro realizado com sucesso!{limpa}')
@@ -97,6 +98,7 @@ while True:
                 
     elif opcao == 2:
         print(f'\n{laranja}=== Registro Biométrico ==={limpa} ')
+        sleep(1)
         print(f'Vamos avaliar primeiro como está o seu IMC {amarelo}(Índice de Massa Corporal){limpa}')
         peso = float(input('Informe seu peso (kg): '))
         altura = float(input('Informe sua altura (m): '))
@@ -133,8 +135,9 @@ while True:
             print(f'{amarelo}Você ainda não fez check-in de nehum treino!{limpa}')
             print('-' * 60)
         else:
-            print('\n=== Último Registro do Diário ===')
+            print(f'\n{laranja}=== Último Registro do Diário ==={limpa}')
             print('-'*60)
+            sleep(1)
             print('Seu último registro foi:')
             print(f'{amarelo}{registro}{limpa}')
             print('-' * 60)
